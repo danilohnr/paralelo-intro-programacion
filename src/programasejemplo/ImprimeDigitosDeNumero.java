@@ -11,7 +11,7 @@ public class ImprimeDigitosDeNumero {
 		int digito, num = entrada.nextInt();
 		while (num != 0) {
 			digito = num % 10;
-			System.out.println(digito + " ");
+			System.out.print(digito + " ");
 			num = num / 10;
 		}
 		entrada.close();
